@@ -1,115 +1,103 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/canvas-confetti@1/dist/confetti.browser.min.js">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/canvas-confetti@1/dist/confetti.browser.min.js">
+    </head>
 
-  </head>
+    <script>
+        function open_card() {
+        document.getElementById('outside').className = 'open-card';
+        }
 
-  <script>
-      function open_card() {
-  document.getElementById('outside').className = 'open-card';
-}
+        function close_card() {
+        document.getElementById('outside').className = '';
+        }
 
-function close_card() {
-  document.getElementById('outside').className = '';
-}
-
-alert('Happy Birthday Vincent! -gabe');
-</script>
+        alert('Happy Birthday Vincent! -gabe');
+    </script>
   
-<body>
-    <div id="outside">
-      <p id="outside-title">
-        Happy Birthday Vinson!
-      </p>
-      
-   <div class="container"> 
-
-    <img id="outside-pic"  src="Img/Design 800x600.png">
-    </div>
-    <p>
-<button onclick="open_card()"
-         type="button" class="btn btn-primary btn-lg">Click To Open</button>
-
-    </p>
-
-    </div>
+    <body>  
+        <div id="outside">
+            <p id="outside-title">
+            Happy Birthday Vinson!
+            </p>
+        <div class="container"> 
+            <img id="outside-pic"  src="Img/Design 800x600.png">
+        </div>
+            <p> <button onclick="open_card()"
+            type="button" class="btn btn-primary btn-lg">Click To Open</button></p>
+        </div>
   
-    <div id="inside"> 
-
-    <p id="inside-title">
-        From all of us in your MFW Class
-    </p>
+        <div id="inside"> 
+            <p id="inside-title">
+            From all of us in your Mobile Friendly Websites Class
+            </p>
+            <p id="message">
+            We hope that you have a wonderful day!
+            </p>
+            <p>
+            <button onclick="close_card()" type="button" class="btn btn-primary btn-lg">Click To Close</button>
+            </p>
       
-    <p id="message">
-        We hope that you have a wonderful day!
-    </p>
-
-    <p>
-        <button onclick="close_card()" type="button" class="btn btn-primary btn-lg">Click To Close</button>
-    </p>
-      
-    <div class="Isabella">
-    <div class="birthday-card">
+            <div class="Isabella">
+            <div class="birthday-card">
             <img src="Img/giphy.gif" class="giphy">
-         <h2 class="birthday-text">
+             <h2 class="birthday-text">
              <b>HAPPY BIRTHDAY VINSON!!!</b></h2>
-         <p class="birthday-text">Wishing you a wonderful birthday and a great year ahead! <br>
+            <p class="birthday-text">Wishing you a wonderful birthday and a great year ahead! <br>
            - Isabella Tannady</p>
-    </div>
+            </div>
+        </div> 
 
-        
-    </div> 
+        <div class="Moon">
+            <h1 class="MoonText">Happy Birthday Vinson! <br> Hope this year brings you amazing things starting with a win for your team this weekend!</h1>
+            <h2 class="MoonText">Sincerely, Moon</h2>
+        </div>
 
-    <div class="Moon">
-        <h1 class="MoonText">Happy Birthday Vinson! <br> Hope this year brings you amazing things starting with a win for your team this weekend!</h1>
-        <h2 class="MoonText">Sincerely, Moon</h2>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1/dist/confetti.browser.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1/dist/confetti.browser.min.js"></script>
         <div class="container">
             <h1 class="TaofeekText">Happy<br />birthday <br/> Vinsion!!!</h1>
             <button onclick="confetti()">Get a gift</button>
             <p>-Taofeek B</p>
-    </div>
+        </div>
     
-    <div class="Eddie">
-        <h1 class="EddieText">Happy Birthday Vinson! I hope you have an amazing day and weekend. Best of luck to your team. </h1> 
-        <img src="Img/partyemoji.png"> 
-        <h2 class="EddieText">-Eddie Moreno</h2>    
-    </div>
+        <div class="Eddie">
+            <h1 class="EddieText">Happy Birthday Vinson! I hope you have an amazing day and weekend. Best of luck to your team. </h1> 
+            <img src="Img/partyemoji.png"> 
+            <h2 class="EddieText">-Eddie Moreno</h2>    
+        </div>
 
-    <div class="Yadi">
-        <h1 class="YadiText">Hope you had a wonderful Birthday Vinson …. Enjoy this weekend which will hopefully end in a 49ers WIN!!!!</h1>
-        <h2 class="YadiText">-Yadi Getachew</h2>
-    </div>
+        <div class="Yadi">
+            <h1 class="YadiText">Hope you had a wonderful Birthday Vinson …. Enjoy this weekend which will hopefully end in a 49ers WIN!!!!</h1>
+            <h2 class="YadiText">-Yadi Getachew</h2>
+        </div>
 
-    <div class="Madison">
-        <h1 class="MadisonText">Happy birthday Vinson! Hope you have a great day!!</h1> 
-        <h2 class="MadisonText">-Madison</h2>
-    </div>
+        <div class="Madison">
+            <h1 class="MadisonText">Happy birthday Vinson! Hope you have a great day!!</h1> 
+            <h2 class="MadisonText">-Madison</h2>
+        </div>
 
-    <div class="Liliana">
-        <h1 class="LilianaText">Happy Birthday, hope your team wins.</h1> 
-        <h2 class="LilianaText">-Liliana</h2>
-    </div>
+        <div class="Liliana">
+            <h1 class="LilianaText">Happy Birthday, hope your team wins.</h1> 
+            <h2 class="LilianaText">-Liliana</h2>
+        </div>
 
-    <div class="Dustin">
-        <h1 class="DustinText">wassah dude happy birthday</h1> 
-        <h2 class="DustinText">-Dustin</h2>
-    </div>
+        <div class="Dustin">
+            <h1 class="DustinText">wassah dude happy birthday</h1> 
+            <h2 class="DustinText">-Dustin</h2>
+        </div>
 
-    <div class="Issy">
-        <h1 class="IssyText">Happy Egg Day Vinson! Thank you for all that you do for us so we can succeed and make it through class. I hope you enjoy today and what your new year brings you :)</h1> 
-        <h2 class="IssyText">Isabela (Issy) De Las Casas</h2>
-    </div>
+        <div class="Issy">
+            <h1 class="IssyText">Happy Egg Day Vinson! Thank you for all that you do for us so we can succeed and make it through class. I hope you enjoy today and what your new year brings you :)</h1> 
+            <h2 class="IssyText">Isabela (Issy) De Las Casas</h2>
+        </div>
 
-</div>
+        </div>
 
-    </div>
+        </div>
     
   </body>
   
