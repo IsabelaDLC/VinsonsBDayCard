@@ -1,0 +1,69 @@
+
+
+#outside {
+    z-index: 1;
+    position: absolute;
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+  }
+  
+  .open-card {
+    transform: rotateY(90deg);
+  }
+  
+  #outside-title {
+        color: white;
+        font-family: 'Inconsolata', monospace;
+      font-size: 50pt;
+      text-align: center;
+    padding: 15px;
+  }
+
+  #outside-pic {
+    max-width: 100%;
+    height: 600px;
+  }
+  
+  
+  #inside {
+    z-index: 0;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  #inside-title {
+    color: blue;
+    font-family: 'Inconsolata', monospace;
+      font-size: 50pt;
+      text-align: center;
+    padding: 15px;
+  }
+  
+  #inside-pic {
+    max-width: 100%;
+    height: 250px;
+  
+  }
+  
+  #message {
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25pt;
+    text-align: center;
+    padding: 20px;
+  }
+
+  button {
+      font-size: 35px;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+  }
